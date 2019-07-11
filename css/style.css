@@ -1,0 +1,489 @@
+/* ============================ Start Header Style ====================================== */
+header
+{
+    padding: 0.8rem 0;
+}
+.emergency_noleft
+{
+    float: left;
+    width: 50px;
+}
+.emergency_noleft img
+{
+    margin-top: 10px;
+}
+.emergency_noright
+{
+    float: left;
+    width: 155px;
+}
+.emergency_no
+{
+    border:1px solid #e6e6e6;
+    border-radius: 5px;
+padding: 5px 1rem;
+margin-top: 10px;
+}
+
+.emergency_no h6
+{
+    font-size: 14px;
+color: #aaa8a8;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+    margin-top: 0;
+}
+.emergency_no .emergency_noright h2
+{
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 1px;
+    margin: 0;
+    font-weight:bold
+}
+/* ============================ End Header Style ====================================== */
+
+/* ======================== Slider section start ====================================== */
+#banner{
+	/*background-image:url(../images/Bitmap2.png);
+	height: 531px;*/
+}
+.booking_section_full{
+	position: absolute;
+    margin-top: -32em;
+}
+.booking_section{
+	padding: 155px 0px;
+	padding-right: 265px !important;
+}
+.booking_section h2{
+	color:#fff;
+	letter-spacing: 1px;
+    font-size: 40px;
+}
+.booking_section h5{
+	color:#fff;
+	font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.booking_section a{
+	width: 225px;
+    height: 50px;
+    display: inline-block;
+    background: #29c38e;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+	margin-top: 20px;
+}
+.form_section{
+	background:#fff;
+	width:395px;
+	height:455px;
+	margin: 40px 0px;
+    float: right;
+    padding: 40px 30px 30px 30px;
+	color:#24385b;
+}
+.form_section h4{
+	color:#24385b;
+}
+.form_section input[type=text] {
+  	width:315px;
+	height:46px;
+	margin-bottom:15px;
+	background:#f9f9f9;
+}
+.form_section input[type=submit] {
+	width:125px;
+	height:50px;
+	background:#df5c6c;
+	color:#fff;
+	border:none;
+	border-radius:5px;
+}
+.checkbox_design{
+   width:315px;
+   height:86px;
+   border:1px solid #ccc;
+}
+/*======================== Slider Section End ========================================= */
+
+/* ============================= Start Overview Secction ================================ */
+#overview
+{
+    padding: 2rem 0;
+}
+.sectiontitle
+{
+    color: #403f7e;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+	margin-bottom: 1em;
+}
+.sectiontitle::after
+{
+    content: '';
+	position: absolute;
+	left: 18px;
+	top: 22%;
+	margin: 10px auto;
+	width: 45px;
+	height: 3px;
+	background: #5d58cc;
+}
+/* ============================= End Overview Secction ================================ */
+
+/*============================= Start Services Section ================================ */
+#services
+{
+    padding: 0rem 0;
+}
+.servicetitle
+{
+    color: #403f7e;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+	margin-bottom: 1em;
+}
+.servicetitle::after
+{
+    content: '';
+	position: absolute;
+	left: 18px;
+	top: 11%;
+	margin: 10px auto;
+	width: 45px;
+	height: 3px;
+	background: #5d58cc;
+}
+#services ol{
+
+}
+#services ol li{
+    width:33.333333%;
+	float:left;
+	height:50px;
+	color:#727ecc;
+	list-style-type: decimal-leading-zero;
+	
+}
+#services ol li a{
+   color:#5c6ac4;
+}
+/*============================= Start Services Section ================================ */
+
+/* ============================= Start doctors Secction ================================ */
+#doctors
+{
+    padding: 2rem 0;
+    background: #f4f6f8;
+    margin: 2rem 0 0 0;
+}
+.doctorstitle
+{
+    color: #403f7e;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+	margin-bottom: 2em;
+}
+.doctorstitle::after
+{
+    content: '';
+	position: absolute;
+	left: 18px;
+	top: 13%;
+	margin: 10px auto;
+	width: 45px;
+	height: 3px;
+	background: #5d58cc;
+}
+.left_side_doctor{
+	padding-left:0px !important;
+	background:#fff;
+	border-radius:5px;
+	box-shadow: 2px 2px 2px 2px #ccc;
+	width: 525px;
+    height: 205px;
+	
+}
+.doctor_left{
+	float:left;
+}
+.doctor_right{
+  margin-left: 201px;
+  margin-right: 45px;
+  padding-top: 34px;
+}
+.doctor_right h4{
+	font-size:18px;
+	padding-bottom: 11px;
+}
+.doctor_right p{
+	color:#54595a;
+}
+.doctor_right a{
+	width: 250px;
+    height: 50px;
+    background: #484884;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+	padding-top:10px;
+}
+.doctor_right a:hover{
+	color:#fff;
+	background:#6969a7;
+	text-decoration:none;
+}
+
+.right_side_doctor{
+	padding-left:0px !important;
+	background:#fff;
+	border-radius:5px;
+	box-shadow: 2px 2px 2px 2px #ccc;
+	width: 525px;
+    height: 205px;
+	
+}
+/* ============================= End doctors Secction ================================ */
+
+/* ===================== what is Ivus section start ================================= */
+#what_ivus
+{
+    padding: 2rem 0;
+
+}
+.what_ivustitle
+{
+    color: #403f7e;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+	margin-bottom: 1em;
+}
+.what_ivustitle::after
+{
+    content: '';
+	position: absolute;
+	left: 18px;
+	top: 30%;
+	margin: 10px auto;
+	width: 45px;
+	height: 3px;
+	background: #5d58cc;
+}
+#what_ivus ul{
+	column-count: 2;
+    width: 66%;
+    padding-left: 0px;
+	margin-top: 2em;
+}
+#what_ivus ul li{
+ 	list-style:none;
+	color: #212121;
+    height: 42px;
+}
+#what_ivus ul li i{
+	color: #8a87da;
+	font-size:12px;
+	padding-right:15px;
+}
+/*====================== what is Ivus section end ================================== */
+
+/* =================== Cardiology section start =================================== */
+#cardiology
+{
+    padding: 2rem 0;
+
+}
+.cardiologytitle
+{
+    color: #403f7e;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+	margin-bottom: 1em;
+}
+.cardiologytitle::after
+{
+    content: '';
+	position: absolute;
+	left: 18px;
+	top: 22%;
+	margin: 10px auto;
+	width: 45px;
+	height: 3px;
+	background: #5d58cc;
+}
+/* ==================== Cardiology section end ================================== */
+
+/* ===================== why choose sakra section start ======================================= */
+#why_choose_sakra
+{
+    padding: 2rem 0;
+
+}
+.whytitle
+{
+    color: #403f7e;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+	margin-bottom: 1em;
+}
+.whytitle::after
+{
+    content: '';
+	position: absolute;
+	left: 18px;
+	top: 22%;
+	margin: 10px auto;
+	width: 45px;
+	height: 3px;
+	background: #5d58cc;
+}
+/* ===================== why choose sakra section end ======================================= */
+
+/*===================== copyright section start =================== */
+#copyright{
+	 background:#151537;
+	 height:120px;
+}
+#copyright p{
+	color:#fff;
+	text-align:center;
+	padding: 50px 0px;
+}
+/*======================= copyright section end ================ */
+
+
+/* ======================= Responsive section design ==================== */
+ @media (max-width: 479px) {
+   .padding_zero{
+        padding: 0px !important;
+    }
+	#banner{
+		width:100%;
+		height:auto;
+	}
+	.booking_section{
+		padding: 0px;
+		padding-right: 0 !important;
+	}
+	.booking_section h2 {
+		font-size:20px;
+		letter-spacing: 0px;
+	}
+	.booking_section h5{
+		font-size: 12px;
+	}
+	.sectiontitle::after{
+	      top: 8%;
+	}
+	#services ol li{
+	      width:100%;
+	}
+	.servicetitle::after{
+		    top: 6%;
+	}
+	#what_ivus ul{
+		width: 100%;
+		column-count: 0;
+	}
+	.whytitle::after{
+	       top: 9%;
+	}
+	.left_side_doctor{
+		 height: auto;
+    	margin-bottom: 22px;
+		    width: 100%;
+	}
+	.right_side_doctor{
+		height: auto;
+		    width: 100%;
+	}
+	.doctor_right {
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-bottom: 15px;
+	}
+	.doctorstitle::after{
+		top: 7%;
+	}
+	#what_ivus ul li{
+		height:auto;
+	}
+	.doctor_right a{
+		width: auto;
+		padding-left: 20px;
+    	padding-right: 20px;
+	}
+	.sectiontitle{
+	font-size: 1.5rem;
+	}
+	.servicetitle{
+	font-size: 1.5rem;
+	}
+	.doctorstitle{
+	font-size: 1.5rem;
+	}
+	.what_ivustitle{
+	font-size: 1.5rem;
+	}
+	.cardiologytitle{
+	font-size: 1.5rem;
+	}
+	.whytitle{
+	font-size: 1.5rem;
+	}
+	.cardiologytitle::after{
+	 top: 13%;
+	}
+	.booking_section_full{
+	position: relative;
+    margin-top: -112px;
+	}
+	.emergency_noright {
+    float: left;
+    width: 144px;
+	}
+	.form_section {
+    background: #fff;
+    width: 100%;
+    height: auto;
+    margin: 0px 0px;
+    float: left;
+    padding: 0px;
+    color: #24385b;
+	}
+	.form_section input[type=text] {
+    width: 100%;
+    height: auto;
+	}
+	.checkbox_design {
+    width: 100%;
+	}
+}
+ @media (max-width: 767px) {
+     .padding_zero{
+        padding: 0px !important;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+
+.padding_zero{
+        padding: 0px !important;
+    }
+   
+}
+@media (min-width:992px) and (max-width:1199px){
+    
+}
